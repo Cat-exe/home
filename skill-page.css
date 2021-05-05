@@ -1,0 +1,131 @@
+
+.skills-heading {
+    text-align:left;
+    font-weight:bold;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+/* Header RESET */
+
+
+
+/* Counter out the bootstrap to add a margin at the top*/
+header {
+    background-image:url("https://www.deviceauthority.com/sites/deviceauthority/files/hi-tech-concepts-on-blue-background-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    padding-top:60px;
+    padding-bottom:30px;
+    margin: -20px -20px 0 -20px;
+    border-bottom: 1px solid white;
+    color: white;
+
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 50px;
+    
+}
+
+.profilepic {
+    height:200px;
+    width: 200px;
+    border-radius: 100px 100px 100px 100px;
+    border:5px solid rgb(255, 255, 255);
+    /* This margin makes the picture overlap bottom a bit, which is nice. */
+    margin-bottom: -40px; 
+}
+
+/* STYLING FOR THE SKILLS PROGRESS */
+/* Documentation can be found here: https://getbootstrap.com/docs/4.3/components/progress/ */
+
+/* Modify classes after getting bootstrap code */
+.skill-breakdown{
+    width: 25%;
+    margin: 0px 50% 0px 20%;
+    padding-bottom: 20%;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.progress {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 35px;
+    display: flex;
+}
+
+.bg-python {
+    background-color: rgb(255, 255, 187);
+}
+
+.bg-cpp {
+    background-color: rgb(121, 171, 245)
+}
+
+.bg-htmlcss {
+    background-color: pink;
+}
+
+.bg-algorithms {
+    background-color: rgb(135, 204, 135);
+}
+
+.bg-javascript {
+    background-color: rgb(211, 87, 87);
+}
+
+.percent-label {
+    color: black;
+    font-weight: bold;
+    padding: 15% 20% 11% 90%;
+}
+
+.progress {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.language-label {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.main-space {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    
+}
+
+
+
+.side-images {
+    /* flex: 2; */
+    width: 45rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* Position group of pictures on the right side, otherwise it's stuck on the left. */
+    margin-left: -45%;
+    /* margin-left: 50%;
+    margin-top: -52rem;
+    padding-bottom: 20%; */
+}
+
+
+.side-images img {
+    width:20rem;
+    height:20rem;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+

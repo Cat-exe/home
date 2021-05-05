@@ -1,0 +1,117 @@
+.projects-heading {
+    text-align:left;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+/* STYLING FOR THE PROJECTS */
+
+/* Container class */
+.cards {
+    /* background-color: rgb(196, 232, 255); */
+    /* min-height: 100px; */
+    display: flex;
+    justify-content: space-around;
+    align-content:space-around;
+    /* Everything in the cards is going to be text-align:center */
+    text-align: center;
+    flex-wrap: wrap-reverse;
+    
+    margin-top: 45px;
+    margin-left: 20%;
+    margin-right: 20%; 
+}
+
+
+/* individual child cards */
+.card1 {
+    background-image: url(images/image-background-card1.jpg);
+    /* So it doesn't repeat */
+    background-size:contain;
+    /* background-position: right; */
+    /* background-color: rgb(252, 193, 227); */
+    min-height: 250px;
+    width: 30%;
+    /*This is done after the flex-wrap so it's spaced out nicely */
+    margin-top: 30px;
+    text-decoration:none;
+    
+
+}
+
+.card2 {
+    background-image: url(images/image-background-card2.jpg);
+    /* So it doesn't repeat */
+    background-size: cover;
+    background-position: right;
+    /* background-color: rgb(150, 69, 116); */
+    min-height: 250px;
+    width: 30%;
+    /*This is done after the flex-wrap so it's spaced out nicely */
+    margin-top: 30px;
+    text-decoration:none;
+
+
+}
+
+.card3 {
+    background-image: url(images/image-background-card3.jpg);
+    /* So it doesn't repeat */
+    background-size:contain;
+    background-position: center;
+    /* background-color: rgb(119, 32, 83); */
+    min-height: 250px;
+    width: 30%;
+    /*This is done after the flex-wrap so it's spaced out nicely */
+    margin-top: 30px;
+    text-decoration:none;
+}
+
+.card4 {
+    background-image: url(images/image-background-card4.jpg);
+    /* So it doesn't repeat */
+    background-size:cover;
+    background-position: center;
+    /* background-color: rgb(119, 32, 83); */
+    min-height: 250px;
+    width: 30%;
+    /*This is done after the flex-wrap so it's spaced out nicely */
+    margin-top: 30px;
+    text-decoration:none;
+}
+
+.card5 {
+    background-image: url(images/image-background-card5.jpg);
+    /* So it doesn't repeat */
+    background-size:cover;
+    background-position: center;
+    /* background-color: rgb(119, 32, 83); */
+    min-height: 250px;
+    width: 30%;
+    /*This is done after the flex-wrap so it's spaced out nicely */
+    margin-top: 30px;
+    text-decoration:none;
+}
+
+/* So we can see the text over the image, add a translucent background behind the text */
+.cards p {
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+
+.cards h2 {
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+
+.project-description {
+    display:none;
+}
+
+a:hover .project-description{
+    display:block;
+}
