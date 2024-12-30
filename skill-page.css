@@ -14,11 +14,12 @@ p {
 
 /* Counter out the bootstrap to add a margin at the top*/
 header {
-    background-image:url("https://www.deviceauthority.com/sites/deviceauthority/files/hi-tech-concepts-on-blue-background-header.jpg");
+    background-image:url("https://t3.ftcdn.net/jpg/07/67/45/12/360_F_767451235_uyPbqVBHaa5FMij4Jq4xl6yotuWrRnzs.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 48px;
     text-align:center;
-    padding-top:60px;
+    padding-top:10px;
     padding-bottom:30px;
     margin: -20px -20px 0 -20px;
     border-bottom: 1px solid white;
@@ -29,17 +30,18 @@ header {
 h1 {
     font-weight: bold;
     font-size: 56px;
+    margin-top: 50px;
     margin-bottom: 50px;
     
 }
 
 .profilepic {
     height:200px;
-    width: 200px;
+    width: 175px;
     border-radius: 100px 100px 100px 100px;
     border:5px solid rgb(255, 255, 255);
     /* This margin makes the picture overlap bottom a bit, which is nice. */
-    margin-bottom: -40px; 
+    margin-bottom: -50px; 
 }
 
 /* STYLING FOR THE SKILLS PROGRESS */
@@ -99,6 +101,7 @@ h1 {
 
 .main-space {
     display: flex;
+    align-content: start;
     align-items: flex-start;
     flex-wrap:wrap;
     flex-direction: row;
@@ -113,9 +116,11 @@ h1 {
     width: 45rem;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     
     /* Position group of pictures on the right side, otherwise it's stuck on the left. */
-    margin-left: -45%;
+    /* margin-left: 10%; */
+    
     /* margin-left: 50%;
     margin-top: -52rem;
     padding-bottom: 20%; */
