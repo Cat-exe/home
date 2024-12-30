@@ -141,6 +141,200 @@ h2 i {
 }
 
 li {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
+/* Code for screens less than 760px (smaller laptops and tablets) */
+@media only screen and (max-width:760px) {
+
+
+    h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: -5px;
+    }
+
+    h2 {
+        font-size: 13px;
+
+    }
+
+    .profilepic {
+        margin-top: 10px;
+        width: 10%;
+        height: 10%;
+
+    }
+
+    p {
+        font-size: 12px;
+        text-align:left;
+        margin: auto;
+    }
+
+
+    .intro p {
+        font-size: 12px;
+        text-align:left;
+        margin: auto;
+    }
+    
+    .experience p {
+        font-size: 12px;
+        text-align:left;
+        margin: auto;
+    }
+
+    li {
+        font-size: 12px;
+        text-align:left;
+        margin: 10px;
+    }
+
+    .buttons .skills, .buttons .projects, .buttons .home, .buttons .hobbies  {
+        font-size: 12px;
+        text-align:left;
+        margin: auto;
+    }
+
+    nav{
+        /* background-color: lightskyblue; */
+        /* padding-left: 30%;
+        padding-right: 30%; */
+        /* padding-top: 15px;
+        padding-bottom: 15px; */
+        border-bottom: 1px solid white;
+        margin: 0 auto;
+    
+    }
+
+
+    .experience {
+        list-style-position:inside;
+        text-align: left;
+        padding: 0px;
+    }
+    
+    .quotes {
+        list-style-position:inside;
+        text-align: left;
+        padding: 0px;
+    }
+}
+
+
+/* Code for screens less than 400px (phones) */
+@media only screen and (max-width:400px) {
+
+    h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: -5px;
+    }
+
+    h2 {
+        font-size: 13px;
+
+    }
+
+    .profilepic {
+        margin-top: 10px;
+        width: 90px;
+        height: 120px;
+
+    }
+
+    p {
+        font-size: 12px;
+        text-align:left;
+        margin: auto;
+    }
+
+
+    .intro p {
+        font-size: 12px;
+        text-align:left;
+        margin: auto;
+    }
+    
+    .experience p {
+        font-size: 12px;
+        text-align:left;
+        margin: auto;
+    }
+
+    li {
+        font-size: 12px;
+        text-align:left;
+        margin: 10px;
+    }
+
+    .buttons {
+        /* font-size: 12px;
+        text-align:left;
+        margin: auto; */
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .buttons a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block; 
+    }
+
+    nav{
+        /* background-color: lightskyblue; */
+        /* padding-left: 30%;
+        padding-right: 30%; */
+        /* padding-top: 15px;
+        padding-bottom: 15px; */
+        size: 0.25rem;
+        border-bottom: 1px solid white;
+        margin-left: auto;
+        margin-right: auto;
+        /* position: relative; */
+        display: inline-block;
+    
+    }
+
+    /* Change color of dropdown links on hover */
+.buttons a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+nav:hover .buttons {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+nav:hover .dropbtn {background-color: #0f26aae7;}
+
+
+
+    .experience {
+        list-style-position:inside;
+        text-align: justify;
+        padding: 0px;
+    }
+    
+    .quotes {
+        list-style-position:inside;
+        text-align: justify;
+        padding: 0px;
+    }
+
+    .dropbtn {
+        background-color: white;
+        font-size: 36px;
+        text-decoration: none;
+        color: blue;
+        padding: 2px 10px 2px 10px;
+        border:5px solid rgba(128, 128, 128, 0.212);
+        border-radius: 10px 10px 10px 10px;
+    }
+
+  
+}
